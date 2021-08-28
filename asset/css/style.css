@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(#fff3da, #fffbf2);
+}
+
+h1,h2,p,.click-btn{
+    font-family: 'Allison', cursive;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 74px;
+}
+
+p, .click-btn a{
+    font-size: 40px;
+    color: #000;
+}
+
+/* header */
+header{
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+}
+
+header .logo{
+    margin-left: 60px;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+header .icon-social{
+    margin-right: 60px;
+}
+
+header .icon-social img{
+    width: 50px;
+}
+
+/* banner */
+.banner{
+    position: relative;
+}
+
+.banner h1{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    box-shadow: 0 80px 50px 0 rgb(252, 222, 157);
+    border-bottom-left-radius:100% 20px;
+    border-bottom-right-radius:100% 20px;
+
+}
+
+/* instagram-form */
+.main-content{
+    margin-top: 200px;
+}
+
+.main-content .container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.main-content .paragraph h2{
+    text-align: left;
+    line-height: 1.6;
+}
+
+.main-content .paragraph p{
+    width: 80%;
+    line-height: 1.6;
+}
+
+.main-content .image{
+    position: relative;
+}
+
+.main-content .bg-img{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(223, 231, 170);
+    border-radius: 50%;
+}
+
+.main-content img{
+    width: 450px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.main-content .container .click-btn{
+    padding: 20px 20px;
+    text-align: center;
+    width: 60%;
+    border-radius: 50px;
+    background-color: rgb(223, 231, 170);
+    margin-top: 40px;
+}
+
+/* etsy */
+.etsy-form .bg-img{
+    background-color: rgb(215, 234, 248);
+}
+
+.etsy-form .container{
+    flex-direction: row-reverse;
+}
+
+.etsy-form .container .click-btn{
+    background-color: rgb(215, 234, 248);
+}
+
+/* dribbble */
+.dribbble-form .bg-img{
+    background-color: rgb(255, 190, 153);
+}
+
+.dribbble-form .container .click-btn{
+    background-color: rgb(255, 190, 153);
+}
+
+/* footer */
+footer{
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+footer img{
+    width: 20%;
+}
+
+
+
+
